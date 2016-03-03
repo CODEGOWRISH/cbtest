@@ -89,7 +89,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     chef.run_list = [
 
-      'recipe[test::default]'
+      'recipe[cbtest::default]'
     ]
   end
 
